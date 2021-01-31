@@ -155,7 +155,7 @@
         // Write a "for" loop that console.log()'s the first value in the  array, and every 3rd number, i.e. 0, 3, 6, 9: the zeroth, third, sixth, and ninth values.
 
         //your code...
-        for(i = 0; i < numbers.length; i += 3) {
+        for(let i = 0; i < numbers.length; i += 3) {
             if (i % 3 === 0) {
                 console.log(i);
             }
@@ -564,7 +564,7 @@
         //your code here...
 
         const overAge= devs.filter(dev => dev.age > 24)
-        console.log(remaining);
+        console.log(overAge);
 
     
 
@@ -638,9 +638,9 @@
         devs.forEach( dev => {
             let sentence = dev.name;
             if (dev['tech_stack']) {
-                sentence += ' specializes in ' + dev['tech_stack'].join(', ') + '.'
+                sentence += ' specializes in ' + dev['tech_stack'].join(', ') + '.';
             }
-            else sentence += ' is not a developer.'
+            else sentence += ' is not a developer.';
             console.log(sentence);
         });
     }
