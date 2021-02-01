@@ -71,4 +71,4 @@ deleteButton.addEventListener("click", inputValue);
 
 input.focus();
 
-}); 
+});  

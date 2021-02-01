@@ -38,7 +38,7 @@ function start() {
 
 function stop() {
 
-    if(status === true) {
+    if(status === false) {
         window.clearInterval(interval);
         document.getElementById("stop-button").innerHTML = "Stop";
         status = false;

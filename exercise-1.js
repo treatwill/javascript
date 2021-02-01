@@ -180,13 +180,13 @@
 
 
         let i = 0;
-                let food =" ";
+                let food ="";
                 function printSent(foodArray,adjectiveArray){
                     for(i = 0; i <= foodArray.length; i++){
-                        if(typeof foodArray[i] == 'object')
+                        if(typeof foodArray[i] === 'object')
                             console.log(foodArray[i].program, 'is', adjectiveArray[i]);
                         else {
-                            let newFood = foodArray[i].substring(foodArray[i].length - 1);
+                            let newFood = foodArray[i].String(foodArray[i].length - 1);
                                 if(newFood == 's'){
                                     console.log(foodArray[i]," are ", adjectiveArray[i]);
                                 } 
