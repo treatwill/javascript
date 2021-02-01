@@ -179,7 +179,7 @@
 
 
 
-        let i = 0;
+       /* let i = 0;
                 let food ="";
                 function printSent(foodArray,adjectiveArray){
                     for(i = 0; i <= foodArray.length; i++){
@@ -392,7 +392,7 @@
         // Square every number in the array.  Store the squares in a new array.
 
         //your code...
-        const result = numms.map(x => x ** 2);
+        const result = nums.map(x => x ** 2);
         console.log(result);
         }
 
