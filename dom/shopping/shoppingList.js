@@ -64,11 +64,10 @@ btn.textContent = 'Delete';
 
 ul.appendChild(li);
 
-
-var deleteButton = document.getElementById('li');
-
-deleteButton.addEventListener("click", inputValue);
+    btn.onclick = function(e) {
+    ul.removeChild(li);
+  }
 
 input.focus();
-
+ 
 });  
