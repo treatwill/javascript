@@ -666,12 +666,9 @@
 
 
             //your code...
-            var x = 10;
-            {
-                let x = 2;
-            }
-
-
+        {
+          const x = (x, y) => x * y;
+        }
 
         /************************************************************* */
         //Add an example of the 5 primary JavaScript data types to the given mapObj.  The key is an example data type, and the value is the name of the data type.  An object data type has already been set as the 1st key / val pair.
